@@ -3,23 +3,41 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_first">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.template.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_menu"
+        android:name="com.template.FragmentMenu"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_menu" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.template.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_first"
+        android:name="com.template.FragmentOne"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_one" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.template.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_second"
+        android:name="com.template.FragmentTwo"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_two" />
+
+    <fragment
+        android:id="@+id/nav_third"
+        android:name="com.template.FragmentThree"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_three" />
+
+    <fragment
+        android:id="@+id/nav_fourth"
+        android:name="com.template.FragmentFour"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_four" />
+
+    <fragment
+        android:id="@+id/nav_fifth"
+        android:name="com.template.FragmentFive"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_five" />
 </navigation>
