@@ -24,5 +24,10 @@
             android:id="@+id/nav_fifth"
             android:icon="@drawable/ic_five"
             android:title="@string/fragment_fifth" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/exit_app" />
     </group>
 </menu>

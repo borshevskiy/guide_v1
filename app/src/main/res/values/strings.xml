@@ -10,4 +10,5 @@
     <string name="fragment_third">Third section</string>
     <string name="fragment_fourth">Fourth section</string>
     <string name="fragment_fifth">Fifth section</string>
+    <string name="exit_app">Exit</string>
 </resources>

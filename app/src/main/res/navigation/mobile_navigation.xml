@@ -3,13 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_first">
+    app:startDestination="@+id/nav_menu">
 
     <fragment
         android:id="@+id/nav_menu"
         android:name="com.template.FragmentMenu"
         android:label="@string/app_name"
-        tools:layout="@layout/fragment_menu" />
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_nav_menu_to_nav_first"
+            app:destination="@id/nav_first" />
+        <action
+            android:id="@+id/action_nav_menu_to_nav_second"
+            app:destination="@id/nav_second" />
+        <action
+            android:id="@+id/action_nav_menu_to_nav_third"
+            app:destination="@id/nav_third" />
+        <action
+            android:id="@+id/action_nav_menu_to_nav_fourth"
+            app:destination="@id/nav_fourth" />
+        <action
+            android:id="@+id/action_nav_menu_to_nav_fifth"
+            app:destination="@id/nav_fifth" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_first"

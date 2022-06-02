@@ -7,6 +7,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.template.R.id.*
 import com.template.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -19,14 +20,18 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setSupportActionBar(binding.appBarMain.toolbar)
-        val navController = findNavController(R.id.nav_host_fragment_content_main)
-        appBarConfiguration = AppBarConfiguration(setOf(R.id.nav_first, R.id.nav_second, R.id.nav_third, R.id.nav_fourth, R.id.nav_fifth), binding.drawerLayout)
+        val navController = findNavController(nav_host_fragment_content_main)
+        appBarConfiguration = AppBarConfiguration(setOf(nav_first, nav_second, nav_third, nav_fourth, nav_fifth, nav_menu), binding.drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
-        binding.navView.setupWithNavController(navController)
+        with(binding.navView) {
+            setupWithNavController(navController)
+//            setNavigationItemSelectedListener {
+//                if (it.itemId == nav_exit) finish()
+//                if (it.itemId == nav_first) findNavController().navigate(nav_first)
+//                false
+//            }
+        }
     }
 
-    override fun onSupportNavigateUp(): Boolean {
-        val navController = findNavController(R.id.nav_host_fragment_content_main)
-        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
-    }
+    override fun onSupportNavigateUp() = findNavController(nav_host_fragment_content_main).navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
 }
