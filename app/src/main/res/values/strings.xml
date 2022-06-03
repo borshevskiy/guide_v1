@@ -4,11 +4,63 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_desc">Navigation header</string>
 
-    <string name="fragment_menu">Main menu</string>
     <string name="fragment_first">First section</string>
     <string name="fragment_second">Second section</string>
     <string name="fragment_third">Third section</string>
     <string name="fragment_fourth">Fourth section</string>
     <string name="fragment_fifth">Fifth section</string>
     <string name="exit_app">Exit</string>
+
+    <!-- FragmentOneTexts -->
+    <string name="fragment_first_text_one">A country is a distinct territorial body, a state, nation, or other political entity.</string>
+    <string name="fragment_first_text_two">A country is a distinct territorial body, a state, nation, or other political entity.</string>
+    <string name="fragment_first_text_three">A country is a distinct territorial body, a state, nation, or other political entity.</string>
+    <string name="fragment_first_text_four">A country is a distinct territorial body, a state, nation, or other political entity.</string>
+    <string name="fragment_first_text_five">A country is a distinct territorial body, a state, nation, or other political entity.</string>
+    <string name="fragment_first_text_six">A country is a distinct territorial body, a state, nation, or other political entity.</string>
+    <string name="fragment_first_text_seven">A country is a distinct territorial body, a state, nation, or other political entity.</string>
+    <string name="fragment_first_text_eight">A country is a distinct territorial body, a state, nation, or other political entity.</string>
+
+    <!-- FragmentTwoTexts -->
+    <string name="fragment_two_text_one">Food is any substance consumed to provide nutritional support for an organism.</string>
+    <string name="fragment_two_text_two">Food is any substance consumed to provide nutritional support for an organism.</string>
+    <string name="fragment_two_text_three">Food is any substance consumed to provide nutritional support for an organism.</string>
+    <string name="fragment_two_text_four">Food is any substance consumed to provide nutritional support for an organism.</string>
+    <string name="fragment_two_text_five">Food is any substance consumed to provide nutritional support for an organism.</string>
+    <string name="fragment_two_text_six">Food is any substance consumed to provide nutritional support for an organism.</string>
+    <string name="fragment_two_text_seven">Food is any substance consumed to provide nutritional support for an organism.</string>
+    <string name="fragment_two_text_eight">Food is any substance consumed to provide nutritional support for an organism.</string>
+
+    <!-- FragmentThreeTexts -->
+    <string name="fragment_three_text_one">Creativity is a phenomenon whereby something new and valuable is formed.</string>
+    <string name="fragment_three_text_two">Creativity is a phenomenon whereby something new and valuable is formed.</string>
+    <string name="fragment_three_text_three">Creativity is a phenomenon whereby something new and valuable is formed.</string>
+    <string name="fragment_three_text_four">Creativity is a phenomenon whereby something new and valuable is formed.</string>
+    <string name="fragment_three_text_five">Creativity is a phenomenon whereby something new and valuable is formed.</string>
+    <string name="fragment_three_text_six">Creativity is a phenomenon whereby something new and valuable is formed.</string>
+    <string name="fragment_three_text_seven">Creativity is a phenomenon whereby something new and valuable is formed.</string>
+    <string name="fragment_three_text_eight">Creativity is a phenomenon whereby something new and valuable is formed.</string>
+
+    <!-- FragmentFourTexts -->
+    <string name="fragment_four_text_one">Something and anything are concepts of existence in ontology, contrasting with the concept of nothing. </string>
+    <string name="fragment_four_text_two">Something and anything are concepts of existence in ontology, contrasting with the concept of nothing. </string>
+    <string name="fragment_four_text_three">Something and anything are concepts of existence in ontology, contrasting with the concept of nothing. </string>
+    <string name="fragment_four_text_four">Something and anything are concepts of existence in ontology, contrasting with the concept of nothing. </string>
+    <string name="fragment_four_text_five">Something and anything are concepts of existence in ontology, contrasting with the concept of nothing. </string>
+    <string name="fragment_four_text_six">Something and anything are concepts of existence in ontology, contrasting with the concept of nothing. </string>
+    <string name="fragment_four_text_seven">Something and anything are concepts of existence in ontology, contrasting with the concept of nothing. </string>
+    <string name="fragment_four_text_eight">Something and anything are concepts of existence in ontology, contrasting with the concept of nothing. </string>
+
+    <!-- FragmentFiveTexts -->
+    <string name="fragment_five_text_one">Animals (also called Metazoa) are multicellular, eukaryotic organisms in the biological kingdom Animalia. </string>
+    <string name="fragment_five_text_two">Animals (also called Metazoa) are multicellular, eukaryotic organisms in the biological kingdom Animalia. </string>
+    <string name="fragment_five_text_three">Animals (also called Metazoa) are multicellular, eukaryotic organisms in the biological kingdom Animalia. </string>
+    <string name="fragment_five_text_four">Animals (also called Metazoa) are multicellular, eukaryotic organisms in the biological kingdom Animalia. </string>
+    <string name="fragment_five_text_five">Animals (also called Metazoa) are multicellular, eukaryotic organisms in the biological kingdom Animalia. </string>
+    <string name="fragment_five_text_six">Animals (also called Metazoa) are multicellular, eukaryotic organisms in the biological kingdom Animalia. </string>
+    <string name="fragment_five_text_seven">Animals (also called Metazoa) are multicellular, eukaryotic organisms in the biological kingdom Animalia. </string>
+    <string name="fragment_five_text_eight">Animals (also called Metazoa) are multicellular, eukaryotic organisms in the biological kingdom Animalia. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

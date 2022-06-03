@@ -21,16 +21,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setSupportActionBar(binding.appBarMain.toolbar)
         val navController = findNavController(nav_host_fragment_content_main)
-        appBarConfiguration = AppBarConfiguration(setOf(nav_first, nav_second, nav_third, nav_fourth, nav_fifth, nav_menu), binding.drawerLayout)
+        appBarConfiguration = AppBarConfiguration(setOf(nav_menu, nav_first, nav_second, nav_third, nav_fourth, nav_fifth, nav_exit), binding.drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
-        with(binding.navView) {
-            setupWithNavController(navController)
-//            setNavigationItemSelectedListener {
-//                if (it.itemId == nav_exit) finish()
-//                if (it.itemId == nav_first) findNavController().navigate(nav_first)
-//                false
-//            }
-        }
+        binding.navView.setupWithNavController(navController)
     }
 
     override fun onSupportNavigateUp() = findNavController(nav_host_fragment_content_main).navigateUp(appBarConfiguration) || super.onSupportNavigateUp()

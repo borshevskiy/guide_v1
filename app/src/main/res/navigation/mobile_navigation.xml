@@ -31,29 +31,69 @@
         android:id="@+id/nav_first"
         android:name="com.template.FragmentOne"
         android:label="@string/app_name"
-        tools:layout="@layout/fragment_one" />
+        tools:layout="@layout/fragment_one" >
+        <action
+            android:id="@+id/action_nav_first_to_nav_card"
+            app:destination="@id/nav_card" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_card"
+        android:name="com.template.FragmentCard"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_card" >
+        <argument
+            android:name="cardInfo"
+            app:argType="com.template.Card" />
+        <action
+            android:id="@+id/action_nav_card_to_nav_menu"
+            app:destination="@id/nav_menu" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_second"
         android:name="com.template.FragmentTwo"
         android:label="@string/app_name"
-        tools:layout="@layout/fragment_two" />
+        tools:layout="@layout/fragment_two" >
+        <action
+            android:id="@+id/action_nav_second_to_nav_card"
+            app:destination="@id/nav_card" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_exit"
+        android:name="com.template.FragmentExit"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_exit" >
+    </fragment>
 
     <fragment
         android:id="@+id/nav_third"
         android:name="com.template.FragmentThree"
         android:label="@string/app_name"
-        tools:layout="@layout/fragment_three" />
+        tools:layout="@layout/fragment_three" >
+        <action
+            android:id="@+id/action_nav_third_to_nav_card"
+            app:destination="@id/nav_card" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_fourth"
         android:name="com.template.FragmentFour"
         android:label="@string/app_name"
-        tools:layout="@layout/fragment_four" />
+        tools:layout="@layout/fragment_four" >
+        <action
+            android:id="@+id/action_nav_fourth_to_nav_card"
+            app:destination="@id/nav_card" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_fifth"
         android:name="com.template.FragmentFive"
         android:label="@string/app_name"
-        tools:layout="@layout/fragment_five" />
+        tools:layout="@layout/fragment_five" >
+        <action
+            android:id="@+id/action_nav_fifth_to_nav_card"
+            app:destination="@id/nav_card" />
+    </fragment>
 </navigation>
